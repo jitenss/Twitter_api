@@ -4,7 +4,7 @@ A RESTful API that streams tweets depending on the keyword entered by the user a
 ## Directory Structure
 * api/          
   * models/         
-    * tweet.js          // Our Mongoose Tweet Model
+    * tweet.js          // Mongoose Tweet Model
   * routes        
     * search.js         // Search Routes
     * stream.js         // Stream Routes
