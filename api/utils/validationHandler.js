@@ -24,7 +24,7 @@ module.exports.validateQueryData = function(req,res,queryOn){
 	//Validations for pagesize, pagenumber and order of sorting
 	req.checkBody('pageSize','Page size is required and should be a valid integer').isInt({gt: 0}).notEmpty();
 	req.checkBody('pageNum','Page Number is required and should be a valid integer').isInt({gt: 0}).notEmpty();
-	req.checkBody('orderSort','Should be an integer: 1 for aesc and -1 for desc').isInt();
+	req.checkBody('orderSort','Should be an integer: 1 for aesc and -1 for desc').isInt({gt: -2, lt: 2});
 
 	//Validations for particular fields only
 	switch(queryOn){
