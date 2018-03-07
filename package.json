@@ -1,0 +1,25 @@
+{
+  "name": "innovacer_assignment",
+  "version": "1.0.0",
+  "description": "API to stream and store tweets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jiten Singh Sadhwani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "csv": "^2.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.3",
+    "json-2-csv": "^2.2.0",
+    "json2csv": "^4.0.1",
+    "mongoose": "^5.0.7",
+    "replace": "^0.3.0",
+    "socket.io": "^2.0.4",
+    "twitter": "^1.7.1",
+    "validator": "^9.4.1"
+  }
+}
